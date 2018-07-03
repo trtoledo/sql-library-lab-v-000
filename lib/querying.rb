@@ -22,7 +22,7 @@ end
 
 def select_series_title_with_most_human_characters
   "SELECT series.title
-  FROM series WHERE species = "human" ORDER BY SUM(species)
+  FROM series WHERE species = 'human' ORDER BY SUM(species)
   LIMIT 1;"
 end
 
